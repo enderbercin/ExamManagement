@@ -1,0 +1,14 @@
+﻿@using WebApp.Data.Domain
+
+@model IEnumerable<Exam>
+@foreach (var exam in Model) 
+{ 
+<p>  @exam.Description </p>
+<p>  @exam.Duration    </p>
+<p>  @exam.Id    </p>
+<p>  @exam.Name    </p>
+}
+<textarea>
+
+</textarea>
+

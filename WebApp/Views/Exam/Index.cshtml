@@ -1,0 +1,10 @@
+﻿@model ExamModel
+
+    <h2>Exams:</h2><br/>
+    @foreach(var exam in Model.Exams){
+        <p>@exam.Name</p>
+    }
+    <h2>ExamCategories:</h2><br/>
+    @foreach(var examCat in Model.ExamCategories){
+        <p>@examCat.Name</p>
+    }
